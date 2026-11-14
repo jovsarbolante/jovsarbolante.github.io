@@ -1,31 +1,33 @@
 /* ==========================================================================
    Jovilyn Arbolante — Portfolio & Systems Design System
+   Aesthetic: Baby Pink Executive Palette (Rose Blush, Soft Pastels, Crisp Contrast)
    WCAG 2.2 AA Compliant, Responsive, Themeable, Zero External Dependencies
    ========================================================================== */
 
 :root {
-  /* Color Palette - Light Theme */
-  --bg-primary: #f8fafc;
-  --bg-surface: #ffffff;
-  --bg-surface-elevated: #f1f5f9;
-  --bg-surface-accent: #e2e8f0;
-  --text-primary: #0f172a;
-  --text-secondary: #334155;
-  --text-muted: #64748b;
-  --border-subtle: #e2e8f0;
-  --border-strong: #cbd5e1;
+  /* Color Palette - Baby Pink Light Theme */
+  --bg-primary: #fff0f5;           /* LavenderBlush / Soft Baby Pink tint */
+  --bg-surface: #ffffff;           /* Crisp White Card Surface */
+  --bg-surface-elevated: #fdf2f8;  /* Very soft baby pink surface */
+  --bg-surface-accent: #fce7f3;    /* Subtle pink accent */
+  --text-primary: #2d1020;         /* Deep plum/espresso - ultra high contrast 14:1 */
+  --text-secondary: #582442;       /* Muted rose-plum - high contrast 7.5:1 */
+  --text-muted: #7e3a62;           /* Subtle muted mauve - contrast 4.8:1 */
+  --border-subtle: #fce7f3;        /* Soft baby pink border */
+  --border-strong: #fbcfe8;        /* Defined baby pink border */
   
   /* Brand Accents */
-  --brand-primary: #1d4ed8;      /* Cobalt Blue */
-  --brand-primary-hover: #1e40af;
-  --brand-surface: #eff6ff;
-  --brand-border: #bfdbfe;
+  --brand-primary: #be185d;        /* Deep Rose Pink (passes 4.5:1 on light pink) */
+  --brand-primary-hover: #9d174d;  /* Rich Burgundy-Rose */
+  --brand-surface: #fdf2f8;        /* Pale baby pink pill */
+  --brand-border: #f472b6;         /* Baby pink border */
+  --baby-pink-glow: rgba(244, 114, 182, 0.25);
   --accent-teal: #0f766e;
   --accent-amber: #b45309;
-  --accent-slate: #475569;
+  --accent-slate: #702555;
   
   /* Focus & Accessibility */
-  --focus-ring: #2563eb;
+  --focus-ring: #db2777;
   --focus-offset: 2px;
   
   /* Typography */
@@ -35,13 +37,13 @@
   /* Layout & Spacing */
   --max-width: 1120px;
   --header-height: 72px;
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 16px;
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --shadow-sm: 0 1px 3px 0 rgba(190, 24, 93, 0.05);
+  --shadow-md: 0 4px 10px -2px rgba(190, 24, 93, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 12px 24px -4px rgba(190, 24, 93, 0.12), 0 4px 8px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 30px -6px rgba(190, 24, 93, 0.16);
   
   /* Transitions */
   --transition-fast: 0.15s ease;
@@ -49,29 +51,31 @@
 }
 
 [data-theme="dark"] {
-  --bg-primary: #0b0f17;
-  --bg-surface: #111827;
-  --bg-surface-elevated: #1f2937;
-  --bg-surface-accent: #374151;
-  --text-primary: #f9fafb;
-  --text-secondary: #e5e7eb;
-  --text-muted: #9ca3af;
-  --border-subtle: #1f2937;
-  --border-strong: #374151;
+  /* Baby Pink Dark Theme - Midnight Rose & Plum */
+  --bg-primary: #190914;           /* Deep Midnight Plum */
+  --bg-surface: #240e1d;           /* Rose-Plum Surface */
+  --bg-surface-elevated: #36172d;  /* Elevated Mauve-Plum */
+  --bg-surface-accent: #4a213e;
+  --text-primary: #fff1f5;         /* Soft Powder White */
+  --text-secondary: #fce7f3;       /* Pastel Baby Pink Text */
+  --text-muted: #f472b6;           /* Baby Pink Muted */
+  --border-subtle: #3d1833;
+  --border-strong: #702555;
   
-  --brand-primary: #3b82f6;
-  --brand-primary-hover: #60a5fa;
-  --brand-surface: #1e293b;
-  --brand-border: #1d4ed8;
-  --accent-teal: #14b8a6;
-  --accent-amber: #f59e0b;
-  --accent-slate: #94a3b8;
+  --brand-primary: #f472b6;        /* Bright Baby Pink */
+  --brand-primary-hover: #f9a8d4;  /* Pastel Pink Hover */
+  --brand-surface: #3b142e;
+  --brand-border: #ec4899;
+  --baby-pink-glow: rgba(244, 114, 182, 0.35);
+  --accent-teal: #2dd4bf;
+  --accent-amber: #fbbf24;
+  --accent-slate: #d946ef;
   
-  --focus-ring: #60a5fa;
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.7);
+  --focus-ring: #f472b6;
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 10px -2px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 12px 24px -4px rgba(0, 0, 0, 0.7);
+  --shadow-xl: 0 20px 30px -6px rgba(0, 0, 0, 0.8);
 }
 
 /* Base Reset & Accessibility */
@@ -155,6 +159,7 @@ body {
   background: var(--bg-surface);
   border-bottom: 1px solid var(--border-subtle);
   transition: background var(--transition-base), border-color var(--transition-base);
+  box-shadow: var(--shadow-sm);
 }
 
 .nav-wrapper {
@@ -170,22 +175,29 @@ body {
   gap: 0.75rem;
   text-decoration: none;
   color: var(--text-primary);
-  font-weight: 700;
+  font-weight: 750;
   font-size: 1.15rem;
   letter-spacing: -0.01em;
 }
 
 .brand-avatar {
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background: var(--brand-primary);
-  color: #ffffff;
+  overflow: hidden;
+  border: 2px solid var(--brand-primary);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 0.95rem;
+  background: var(--bg-surface-elevated);
+  box-shadow: 0 0 10px var(--baby-pink-glow);
+}
+
+.brand-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .nav-menu {
@@ -199,7 +211,7 @@ body {
   text-decoration: none;
   color: var(--text-secondary);
   font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0.5rem 0.25rem;
   position: relative;
   transition: color var(--transition-fast);
@@ -211,7 +223,7 @@ body {
 
 .nav-link.active {
   color: var(--brand-primary);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .nav-actions {
@@ -226,10 +238,10 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.65rem 1.25rem;
+  padding: 0.7rem 1.35rem;
   border-radius: var(--radius-sm);
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 650;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid transparent;
@@ -241,11 +253,13 @@ body {
   background: var(--brand-primary);
   color: #ffffff;
   border-color: var(--brand-primary);
+  box-shadow: 0 4px 12px var(--baby-pink-glow);
 }
 
 .btn-primary:hover {
   background: var(--brand-primary-hover);
   border-color: var(--brand-primary-hover);
+  transform: translateY(-1px);
 }
 
 .btn-secondary {
@@ -256,16 +270,17 @@ body {
 
 .btn-secondary:hover {
   background: var(--bg-surface-elevated);
-  border-color: var(--text-secondary);
+  border-color: var(--brand-primary);
+  color: var(--brand-primary);
 }
 
 .btn-sm {
-  padding: 0.4rem 0.85rem;
+  padding: 0.45rem 0.95rem;
   font-size: 0.85rem;
 }
 
 .theme-toggle-btn {
-  background: transparent;
+  background: var(--bg-surface-elevated);
   border: 1px solid var(--border-strong);
   color: var(--text-secondary);
   padding: 0.5rem;
@@ -280,13 +295,14 @@ body {
 }
 
 .theme-toggle-btn:hover {
-  background: var(--bg-surface-elevated);
-  color: var(--text-primary);
+  background: var(--bg-surface-accent);
+  color: var(--brand-primary);
+  border-color: var(--brand-primary);
 }
 
 .mobile-nav-toggle {
   display: none;
-  background: transparent;
+  background: var(--bg-surface-elevated);
   border: 1px solid var(--border-strong);
   color: var(--text-primary);
   padding: 0.5rem;
@@ -296,15 +312,82 @@ body {
   height: 40px;
 }
 
-/* Hero Section */
+/* Hero Section with Headshot */
 .hero-section {
-  padding: 4.5rem 0 3.5rem 0;
+  padding: 4.5rem 0 4rem 0;
   background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-primary) 100%);
   border-bottom: 1px solid var(--border-subtle);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 3.5rem;
+  align-items: center;
 }
 
 .hero-content {
-  max-width: 860px;
+  max-width: 680px;
+}
+
+.hero-media-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-photo-card {
+  position: relative;
+  width: 290px;
+  height: 380px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 4px solid var(--bg-surface);
+  box-shadow: 0 16px 36px var(--baby-pink-glow), var(--shadow-lg);
+  background: var(--bg-surface-elevated);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.hero-photo-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 20px 45px var(--baby-pink-glow), var(--shadow-xl);
+}
+
+.hero-portrait-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
+}
+
+.hero-photo-badge {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(8px);
+  padding: 0.55rem 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+[data-theme="dark"] .hero-photo-badge {
+  background: rgba(36, 14, 29, 0.94);
+  color: var(--text-primary);
+  border-color: var(--border-strong);
 }
 
 .status-badge {
@@ -314,11 +397,12 @@ body {
   background: var(--brand-surface);
   color: var(--brand-primary);
   border: 1px solid var(--brand-border);
-  padding: 0.35rem 0.85rem;
+  padding: 0.4rem 0.95rem;
   border-radius: 9999px;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1.25rem;
+  box-shadow: 0 2px 8px var(--baby-pink-glow);
 }
 
 .status-dot {
@@ -326,12 +410,13 @@ body {
   height: 8px;
   border-radius: 50%;
   background: #10b981;
+  box-shadow: 0 0 6px #10b981;
 }
 
 .hero-title {
-  font-size: 2.75rem;
+  font-size: 2.85rem;
   line-height: 1.15;
-  font-weight: 800;
+  font-weight: 850;
   letter-spacing: -0.025em;
   color: var(--text-primary);
   margin-bottom: 1rem;
@@ -339,7 +424,7 @@ body {
 
 .hero-subtitle {
   font-size: 1.35rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--brand-primary);
   margin-bottom: 1.25rem;
   line-height: 1.35;
@@ -350,7 +435,6 @@ body {
   color: var(--text-secondary);
   line-height: 1.65;
   margin-bottom: 2rem;
-  max-width: 760px;
 }
 
 .credential-tags {
@@ -364,10 +448,10 @@ body {
   background: var(--bg-surface-elevated);
   color: var(--text-secondary);
   border: 1px solid var(--border-strong);
-  padding: 0.35rem 0.75rem;
+  padding: 0.35rem 0.85rem;
   border-radius: var(--radius-sm);
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .hero-actions {
@@ -390,7 +474,7 @@ body {
 .section-tag {
   display: inline-block;
   font-size: 0.85rem;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--brand-primary);
@@ -398,8 +482,8 @@ body {
 }
 
 .section-title {
-  font-size: 2.1rem;
-  font-weight: 750;
+  font-size: 2.2rem;
+  font-weight: 800;
   letter-spacing: -0.02em;
   color: var(--text-primary);
   margin-bottom: 0.75rem;
@@ -429,15 +513,16 @@ body {
 .about-highlight-box {
   background: var(--bg-surface);
   border: 1px solid var(--border-strong);
-  border-left: 4px solid var(--brand-primary);
+  border-left: 5px solid var(--brand-primary);
   padding: 1.5rem;
   border-radius: var(--radius-md);
   margin-top: 1.5rem;
+  box-shadow: var(--shadow-sm);
 }
 
 .about-highlight-box h4 {
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 750;
   color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
@@ -460,11 +545,17 @@ body {
   padding: 1.5rem;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.metric-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--brand-border);
 }
 
 .metric-number {
   font-size: 2.25rem;
-  font-weight: 800;
+  font-weight: 850;
   color: var(--brand-primary);
   line-height: 1;
   margin-bottom: 0.35rem;
@@ -473,7 +564,7 @@ body {
 
 .metric-label {
   font-size: 0.95rem;
-  font-weight: 700;
+  font-weight: 750;
   color: var(--text-primary);
   margin-bottom: 0.25rem;
 }
@@ -504,7 +595,7 @@ body {
 
 .capability-card:hover {
   transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 10px 20px var(--baby-pink-glow), var(--shadow-md);
   border-color: var(--brand-border);
 }
 
@@ -513,16 +604,18 @@ body {
   height: 48px;
   border-radius: var(--radius-sm);
   background: var(--brand-surface);
+  border: 1px solid var(--brand-border);
   color: var(--brand-primary);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 1.25rem;
+  font-size: 1.35rem;
 }
 
 .capability-title {
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 750;
   color: var(--text-primary);
   margin-bottom: 0.75rem;
 }
@@ -552,7 +645,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  position: relative;
 }
 
 .timeline-item {
@@ -583,7 +675,7 @@ body {
 
 .timeline-company {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 650;
   color: var(--brand-primary);
 }
 
@@ -593,7 +685,7 @@ body {
 
 .timeline-period {
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-secondary);
   display: block;
 }
@@ -619,14 +711,13 @@ body {
 }
 
 .timeline-list li::before {
-  content: "→";
+  content: "🌸";
   position: absolute;
   left: 0;
-  color: var(--brand-primary);
-  font-weight: bold;
+  font-size: 0.85rem;
 }
 
-/* Education & Certs Row */
+/* Credentials Row */
 .credentials-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -639,11 +730,12 @@ body {
   border: 1px solid var(--border-subtle);
   padding: 1.75rem;
   border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
 }
 
 .credentials-card h4 {
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 750;
   color: var(--text-primary);
   margin-bottom: 1rem;
   border-bottom: 1px solid var(--border-subtle);
@@ -659,7 +751,7 @@ body {
 }
 
 .credential-name {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-primary);
   font-size: 0.95rem;
 }
@@ -689,17 +781,17 @@ body {
 
 .portfolio-card:hover {
   transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 10px 24px var(--baby-pink-glow), var(--shadow-md);
   border-color: var(--brand-border);
 }
 
 .portfolio-badge {
   display: inline-block;
   align-self: flex-start;
-  padding: 0.3rem 0.75rem;
+  padding: 0.35rem 0.85rem;
   border-radius: 9999px;
   font-size: 0.75rem;
-  font-weight: 700;
+  font-weight: 750;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   background: var(--brand-surface);
@@ -719,7 +811,7 @@ body {
 .portfolio-context {
   font-size: 0.85rem;
   color: var(--text-muted);
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -733,6 +825,7 @@ body {
 
 .portfolio-meta-box {
   background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
   padding: 0.85rem;
   border-radius: var(--radius-sm);
   margin-bottom: 1.25rem;
@@ -763,7 +856,7 @@ body {
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-lg);
   padding: 2.5rem;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 10px 30px var(--baby-pink-glow), var(--shadow-md);
 }
 
 .calculator-header {
@@ -772,7 +865,7 @@ body {
 
 .calculator-header h3 {
   font-size: 1.5rem;
-  font-weight: 750;
+  font-weight: 800;
   color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
@@ -797,20 +890,24 @@ body {
 .calc-field label {
   display: block;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 650;
   color: var(--text-primary);
   margin-bottom: 0.4rem;
 }
 
 .calc-field input, .calc-field select {
   width: 100%;
-  padding: 0.65rem 0.85rem;
+  padding: 0.7rem 0.85rem;
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-sm);
   background: var(--bg-surface-elevated);
   color: var(--text-primary);
   font-size: 0.95rem;
   font-family: var(--font-sans);
+}
+
+.calc-field input:focus, .calc-field select:focus {
+  border-color: var(--brand-primary);
 }
 
 .calc-results-card {
@@ -821,6 +918,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: inset 0 0 15px rgba(244, 114, 182, 0.1);
 }
 
 .calc-metric-row {
@@ -828,7 +926,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 0;
-  border-bottom: 1px solid var(--brand-border);
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 .calc-metric-row:last-child {
@@ -837,13 +935,13 @@ body {
 
 .calc-metric-label {
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 650;
   color: var(--text-secondary);
 }
 
 .calc-metric-val {
   font-size: 1.25rem;
-  font-weight: 800;
+  font-weight: 850;
   color: var(--brand-primary);
   font-family: var(--font-mono);
 }
@@ -852,9 +950,9 @@ body {
   margin-top: 1rem;
   padding: 0.85rem;
   border-radius: var(--radius-sm);
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .calc-verdict.ahead {
@@ -864,9 +962,9 @@ body {
 }
 
 .calc-verdict.ontrack {
-  background: #e0f2fe;
-  color: #0369a1;
-  border: 1px solid #7dd3fc;
+  background: #fdf2f8;
+  color: #be185d;
+  border: 1px solid #fbcfe8;
 }
 
 .calc-verdict.atrisk {
@@ -912,6 +1010,7 @@ body {
 .contact-method-item:hover {
   border-color: var(--brand-primary);
   transform: translateX(4px);
+  box-shadow: 0 4px 12px var(--baby-pink-glow);
 }
 
 .contact-method-icon {
@@ -919,10 +1018,12 @@ body {
   height: 40px;
   border-radius: var(--radius-sm);
   background: var(--brand-surface);
+  border: 1px solid var(--brand-border);
   color: var(--brand-primary);
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
 }
 
 .contact-method-text {
@@ -933,12 +1034,12 @@ body {
 .contact-method-title {
   font-size: 0.85rem;
   color: var(--text-muted);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .contact-method-val {
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -958,7 +1059,7 @@ body {
 .form-group label {
   display: block;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 650;
   color: var(--text-primary);
   margin-bottom: 0.4rem;
 }
@@ -1003,9 +1104,9 @@ body {
 }
 
 .form-status.success {
-  background: #dcfce7;
-  color: #166534;
-  border: 1px solid #86efac;
+  background: #fdf2f8;
+  color: #be185d;
+  border: 1px solid #fbcfe8;
 }
 
 .form-status.error {
@@ -1018,7 +1119,7 @@ body {
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(15, 23, 42, 0.7);
+  background: rgba(45, 16, 32, 0.7);
   backdrop-filter: blur(4px);
   z-index: 1000;
   display: flex;
@@ -1081,7 +1182,8 @@ body {
 
 .modal-close-btn:hover {
   background: var(--bg-surface-elevated);
-  color: var(--text-primary);
+  color: var(--brand-primary);
+  border-color: var(--brand-primary);
 }
 
 .modal-body {
@@ -1098,7 +1200,7 @@ body {
 
 .modal-section h4 {
   font-size: 0.95rem;
-  font-weight: 700;
+  font-weight: 750;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--brand-primary);
@@ -1134,7 +1236,7 @@ body {
 }
 
 .footer-brand {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.1rem;
   color: var(--text-primary);
 }
@@ -1149,6 +1251,7 @@ body {
   text-decoration: none;
   color: var(--text-muted);
   font-size: 0.9rem;
+  font-weight: 600;
   transition: color var(--transition-fast);
 }
 
@@ -1169,8 +1272,20 @@ body {
 
 /* Responsive Media Queries */
 @media (max-width: 900px) {
-  .hero-title {
-    font-size: 2.25rem;
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2.5rem;
+  }
+  .hero-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .credential-tags {
+    justify-content: center;
   }
   .about-grid, .calculator-grid, .contact-grid {
     grid-template-columns: 1fr;
@@ -1204,7 +1319,7 @@ body {
     justify-content: center;
   }
   .hero-title {
-    font-size: 1.95rem;
+    font-size: 2.15rem;
   }
   .hero-subtitle {
     font-size: 1.15rem;

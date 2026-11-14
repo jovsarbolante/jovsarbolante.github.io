@@ -15,17 +15,31 @@
       border: 1px solid var(--border-strong);
       border-radius: var(--radius-md);
       padding: 3rem;
-      box-shadow: var(--shadow-md);
+      box-shadow: 0 10px 30px var(--baby-pink-glow), var(--shadow-md);
     }
     .resume-header {
       border-bottom: 2px solid var(--brand-primary);
-      padding-bottom: 1.25rem;
+      padding-bottom: 1.5rem;
       margin-bottom: 1.5rem;
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
+      align-items: center;
       flex-wrap: wrap;
-      gap: 1rem;
+      gap: 1.5rem;
+    }
+    .resume-id-group {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+    .resume-photo {
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 15%;
+      border: 3px solid var(--brand-primary);
+      box-shadow: 0 4px 12px var(--baby-pink-glow);
     }
     .resume-name {
       font-size: 2.2rem;
@@ -36,8 +50,8 @@
       margin-bottom: 0.25rem;
     }
     .resume-target {
-      font-size: 1.1rem;
-      font-weight: 700;
+      font-size: 1.05rem;
+      font-weight: 750;
       color: var(--brand-primary);
       letter-spacing: 0.04em;
     }
@@ -49,6 +63,7 @@
     }
     .resume-contact-block a {
       color: var(--brand-primary);
+      font-weight: 600;
       text-decoration: none;
     }
     .resume-section-title {
@@ -77,18 +92,19 @@
       color: var(--text-primary);
     }
     .resume-company {
-      font-weight: 600;
+      font-weight: 700;
       color: var(--brand-primary);
     }
     .resume-dates {
       font-size: 0.88rem;
-      font-weight: 600;
+      font-weight: 700;
       color: var(--text-muted);
     }
     .resume-sub {
       font-size: 0.85rem;
       color: var(--text-muted);
       margin-bottom: 0.5rem;
+      font-weight: 500;
     }
     .resume-bullets {
       list-style: disc;
@@ -134,7 +150,9 @@
   <header class="site-header">
     <div class="container nav-wrapper">
       <a href="index.html" class="brand-link" aria-label="Return to portfolio home">
-        <div class="brand-avatar" aria-hidden="true">JA</div>
+        <div class="brand-avatar" aria-hidden="true">
+          <img src="assets/jovilyn-arbolante.jpg" alt="" class="brand-avatar-img">
+        </div>
         <span>Jovilyn Arbolante</span>
       </a>
 
@@ -166,11 +184,14 @@
     </div>
 
     <article class="resume-sheet">
-      <!-- Header -->
+      <!-- Header with Photo -->
       <header class="resume-header">
-        <div>
-          <h1 class="resume-name">JOVILYN ARBOLANTE</h1>
-          <div class="resume-target">REMOTE OPERATIONS &amp; EXECUTIVE SUPPORT COORDINATOR</div>
+        <div class="resume-id-group">
+          <img src="assets/jovilyn-arbolante.jpg" alt="Portrait of Jovilyn Arbolante" class="resume-photo">
+          <div>
+            <h1 class="resume-name">JOVILYN ARBOLANTE</h1>
+            <div class="resume-target">REMOTE OPERATIONS &amp; EXECUTIVE SUPPORT COORDINATOR</div>
+          </div>
         </div>
         <div class="resume-contact-block">
           <div>Pasay City, Metro Manila, Philippines</div>
@@ -293,7 +314,7 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container" style="text-align: center; font-size: 0.85rem; color: var(--text-muted);">
-      © 2026 Jovilyn Arbolante • Public Web Resume • <a href="index.html" style="color: var(--brand-primary); text-decoration: none;">Return to Portfolio</a>
+      © 2026 Jovilyn Arbolante • Public Web Resume • <a href="index.html" style="color: var(--brand-primary); text-decoration: none; font-weight: 600;">Return to Portfolio</a>
     </div>
   </footer>
 

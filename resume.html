@@ -56,15 +56,26 @@
       letter-spacing: 0.04em;
     }
     .resume-contact-block {
-      text-align: right;
-      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      font-size: 0.88rem;
       color: var(--text-secondary);
-      line-height: 1.5;
+      line-height: 1.35;
     }
-    .resume-contact-block a {
+    .resume-contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .resume-contact-item a {
       color: var(--brand-primary);
-      font-weight: 600;
+      font-weight: 650;
       text-decoration: none;
+      transition: color var(--transition-fast);
+    }
+    .resume-contact-item a:hover {
+      text-decoration: underline;
     }
     .resume-section-title {
       font-size: 1.05rem;
@@ -194,10 +205,10 @@
           </div>
         </div>
         <div class="resume-contact-block">
-          <div>Pasay City, Metro Manila, Philippines</div>
-          <div><a href="mailto:jovas.arbolante@gmail.com">jovas.arbolante@gmail.com</a></div>
-          <div><a href="https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jovilyn-arbolante-aa75aa379</a></div>
-          <div><a href="https://github.com/jovsarbolante" target="_blank" rel="noopener noreferrer">github.com/jovsarbolante</a></div>
+          <div class="resume-contact-item"><span aria-hidden="true">📍</span> <span>Pasay City, Metro Manila, Philippines</span></div>
+          <div class="resume-contact-item"><span aria-hidden="true">✉️</span> <a href="mailto:jovas.arbolante@gmail.com">jovas.arbolante@gmail.com</a></div>
+          <div class="resume-contact-item"><span aria-hidden="true">💼</span> <a href="https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jovilyn-arbolante-aa75aa379</a></div>
+          <div class="resume-contact-item"><span aria-hidden="true">💻</span> <a href="https://github.com/jovsarbolante" target="_blank" rel="noopener noreferrer">github.com/jovsarbolante</a></div>
         </div>
       </header>
 

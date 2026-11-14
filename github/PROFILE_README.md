@@ -1,9 +1,22 @@
+<div align="center">
+
 # Jovilyn Arbolante
 
 **Remote Operations & Executive Support Coordinator**  
 *BS Industrial Engineering | Certified Lean Six Sigma Yellow Belt | Asynchronous Systems Builder*
 
-[Portfolio Website](https://jovsarbolante.github.io/) • [LinkedIn](https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/) • [Email](mailto:jovas.arbolante@gmail.com) • Pasay City, Metro Manila, Philippines (Asia/Manila • UTC+8)
+[![Portfolio Website](https://img.shields.io/badge/Portfolio%20Website-jovsarbolante.github.io-be185d?style=for-the-badge&logo=safari&logoColor=white)](https://jovsarbolante.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jovilyn%20Arbolante-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/)
+[![Direct Email](https://img.shields.io/badge/Direct%20Email-jovas.arbolante%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jovas.arbolante@gmail.com)
+[![Location](https://img.shields.io/badge/Base-Metro%20Manila%2C%20PH-f472b6?style=for-the-badge&logo=googlemaps&logoColor=white)](https://jovsarbolante.github.io/)
+
+<br>
+
+[![BS Industrial Engineering](https://img.shields.io/badge/PUP%20Manila-BS%20Industrial%20Engineering-800000?style=flat-square&logo=googleacademic&logoColor=white)](https://jovsarbolante.github.io/)
+[![Lean Six Sigma Yellow Belt](https://img.shields.io/badge/Certified-Lean%20Six%20Sigma%20Yellow%20Belt-ffd700?style=flat-square&logo=target&logoColor=black)](https://jovsarbolante.github.io/)
+[![Athena / Oraz PH](https://img.shields.io/badge/Candidate%20Pool-Athena%20%2F%20Oraz%20PH-be185d?style=flat-square&logo=star&logoColor=white)](https://jovsarbolante.github.io/)
+
+</div>
 
 ---
 
@@ -19,9 +32,23 @@ With hands-on experience as an Operations Team Leader managing multi-channel B2B
 
 ---
 
-## Core Capabilities & Operational Stack
+## Operational Stack & Platforms
 
-| Operational Domain | Core Methods & Deliverables | Primary Tools |
+<div align="center">
+
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Google Workspace](https://img.shields.io/badge/Google%20Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=for-the-badge&logo=microsoftsharepoint&logoColor=white)
+![Zoho CRM](https://img.shields.io/badge/Zoho%20CRM-E42527?style=for-the-badge&logo=zoho&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+![Intercom](https://img.shields.io/badge/Intercom-0057FF?style=for-the-badge&logo=intercom&logoColor=white)
+
+</div>
+
+<br>
+
+| Operational Domain | Core Methods & Deliverables | Primary Platforms |
 | :--- | :--- | :--- |
 | **Executive Support** | Inbox Triage, Calendar Feasibility & Buffers, Executive Morning Briefs, DRRN Recommendations, Travel Matrices | Google Workspace, Microsoft 365, Notion, Slack |
 | **Operations Leadership** | 9:30 AM Standup Cadence, Manpower Allocation, Agent Onboarding & Script Coaching, Milestone Tracking | SharePoint, Roundcube, Intercom, Notion |
@@ -45,7 +72,7 @@ With hands-on experience as an Operations Team Leader managing multi-channel B2B
 * Supported 15 concurrent international campaigns, delivering benchmark results including 106 confirmed attendees within 56 man-days.
 
 ### 3. [Personal Portfolio & Systems Showcase (`jovsarbolante.github.io`)](https://github.com/jovsarbolante/jovsarbolante.github.io)
-> *Accessible, Evidence-Based Personal Website*
+> *Accessible, Evidence-Based Personal Website (Baby Pink Executive Theme)*
 * Semantic, WCAG 2.2 AA compliant portfolio highlighting operational case studies, interactive pacing calculator, verified credentials, and public resume download.
 
 ---
@@ -65,6 +92,10 @@ With hands-on experience as an Operations Team Leader managing multi-channel B2B
 
 ## Connect & Collaborate
 
-* **Email**: [jovas.arbolante@gmail.com](mailto:jovas.arbolante@gmail.com)
-* **LinkedIn**: [linkedin.com/in/jovilyn-arbolante-aa75aa379](https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/)
-* **Operating Hours**: Flexible cross-timezone availability (Operating Base: Metro Manila, PHT / UTC+8)
+<div align="center">
+
+[![Portfolio Website](https://img.shields.io/badge/Visit%20Portfolio-jovsarbolante.github.io-be185d?style=for-the-badge&logo=safari&logoColor=white)](https://jovsarbolante.github.io/)
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/)
+[![Direct Email](https://img.shields.io/badge/Email%20Me-jovas.arbolante%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jovas.arbolante@gmail.com)
+
+</div>

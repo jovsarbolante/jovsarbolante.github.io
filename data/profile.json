@@ -1,0 +1,256 @@
+{
+  "basics": {
+    "name": "Jovilyn Arbolante",
+    "nickname": "Jovi",
+    "title": "Remote Operations & Executive Support Coordinator",
+    "tagline": "Industrial Engineering Graduate & Lean Six Sigma Yellow Belt Pairing Systems Thinking with Executive Support",
+    "valueProposition": "Pairs Industrial Engineering systems thinking and Lean Six Sigma methodology with proactive executive support to streamline asynchronous workflows, protect executive attention, and drive cross-border operational consistency.",
+    "location": {
+      "city": "Metro Manila",
+      "country": "Philippines",
+      "timezone": "Asia/Manila (PHT, UTC+8)"
+    },
+    "contact": {
+      "email": "jovas.arbolante@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/",
+      "linkedinAlt": "https://www.linkedin.com/in/jovilyn-arbolante-clssyb-aa75aa379/",
+      "github": "https://github.com/jovsarbolante"
+    },
+    "status": "Available for Remote Operations & Executive Support Engagements",
+    "githubBio": "Remote Operations & Executive Support Coordinator | BS Industrial Engineering | Lean Six Sigma Yellow Belt | Cross-border team leadership & executive workflows."
+  },
+  "coreCapabilities": [
+    {
+      "id": "exec-support",
+      "title": "Executive Support & Attention Defense",
+      "icon": "shield-check",
+      "summary": "High-context inbox triage, morning executive briefs (<3 min read), calendar feasibility checks with buffer protection, and DRRN-structured decision recommendations.",
+      "evidence": "Engineered the Inbox Operating System for Athena/Oraz candidate preparation; triaged 30-message simulated loads, drafted gatekeeping protocols, and protected 3.5h daily deep work blocks."
+    },
+    {
+      "id": "cross-border-ops",
+      "title": "Cross-Border Team Coordination",
+      "icon": "globe",
+      "summary": "Leading distributed international operations across Singapore, Australia, and the Philippines with disciplined 9:30 AM production briefings, CRM call allocation, and SLA compliance.",
+      "evidence": "Led 15 concurrent international campaigns (10 attendee registration, 5 lead-gen) across 5 remote agents in Singapore and 5–20 onsite agents in the Philippines at G9 Outsourcing Corp."
+    },
+    {
+      "id": "forecasting-modeling",
+      "title": "Milestone & Resource Forecasting",
+      "icon": "bar-chart",
+      "summary": "Building advanced spreadsheet trackers and capacity models to forecast man-day requirements, balance low-traction pacing, and prevent delivery bottlenecks.",
+      "evidence": "Formulated daily Excel pacing engines balancing man-day production to achieve tight attendee targets (e.g., 106 confirmed attendees within 56 man-days) for inCall Systems accounts."
+    },
+    {
+      "id": "process-governance",
+      "title": "Process Improvement & Governance",
+      "icon": "sliders",
+      "summary": "Applying Lean Six Sigma root-cause analysis, drafting standard operating procedures (SOPs), onboarding/coaching agents, and auditing database integrity.",
+      "evidence": "Certified Lean Six Sigma Yellow Belt (Ask Lex PH Academy); built validated prospect databases for 10 enterprise campaigns and drafted telemarketing scripts at TMC Travel & Tours."
+    }
+  ],
+  "experience": [
+    {
+      "role": "Operations Team Leader",
+      "company": "G9 Outsourcing Corp.",
+      "location": "Makati City (Hybrid / Remote Client Accounts)",
+      "period": "December 2024 – August 2026",
+      "note": "Promoted from Management Trainee",
+      "highlights": [
+        "Led daily B2B event registration (RSVP) and lead-generation operations for inCall Systems Pte. Ltd. (Singapore, Remote), allocating daily call plans in proprietary CRM, managing inbound replies via Roundcube, and storing call recordings in SharePoint.",
+        "Delivered daily 9:30 AM production briefings, aligning Singapore remote agents and Philippine production teams on daily pacing, contact quotas, and objection handling.",
+        "Built daily Microsoft Excel production and milestone trackers with formulas and database analysis, balancing man-day pacing across low-traction days to meet campaign targets (e.g., 106 attendees within 56 man-days).",
+        "Managed 15 concurrent international campaigns (10 registration campaigns with 150–500 attendee targets; 5 lead-gen campaigns with 10–20 lead targets) across 5 remote agents in Singapore and 5–20 onsite agents in the Philippines.",
+        "Executed multi-channel calling, email (Zoho, Instantly), and SMS (ClickSend) outreach for enterprise IT accounts (Dell, Google Cloud, HPE, Freshworks, Logitech) and SG/US healthcare clinics using Lusha, ContactOut, and Wiza.",
+        "Compiled employee payroll calculations and app/website order inventory in Google Sheets for Australian client Vyblee via Slack, Notion, and Intercom."
+      ]
+    },
+    {
+      "role": "Management Trainee",
+      "company": "G9 Outsourcing Corp.",
+      "location": "Makati City",
+      "period": "2024 – 2025",
+      "highlights": [
+        "Built and validated prospect databases for 10 campaigns, scrubbing duplicates and standardizing contact fields.",
+        "Supported senior management with manpower scheduling, call-plan creation, and business reviews.",
+        "Coached and onboarded new agents on campaign scripts, CRM navigation, and call quality benchmarks."
+      ]
+    },
+    {
+      "role": "Freelance Marketing and Business Development Associate",
+      "company": "TMC Travel and Tours",
+      "location": "Parañaque City (Remote)",
+      "period": "March 2025 – September 2026",
+      "highlights": [
+        "Secured 3–5 new repeat clients alongside full-time commitments via outbound calling, email marketing, and structured lead qualification.",
+        "Supported 6 telemarketing agents with script onboarding, follow-up coordination, and CRM tracking."
+      ]
+    },
+    {
+      "role": "Executive Assistant Trainee (Candidate Preparation & Matching Pool)",
+      "company": "Athena / Oraz PH",
+      "location": "Remote",
+      "period": "2026 – Present",
+      "highlights": [
+        "Practiced structured executive planning, operational risk anticipation, stakeholder prioritization, and actionable recommendation drafting in simulated executive support scenarios.",
+        "Evaluated on core rubrics: Professionalism, Collaboration, and Learning Agility.",
+        "Implemented standardized DRRN frameworks (Decision, Reason, Risk, Next Step) and executive morning briefs to defend executive attention and ensure high-integrity delegation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Industrial Engineering",
+      "institution": "Polytechnic University of the Philippines, Manila",
+      "period": "2020 – 2024",
+      "focus": "Operations Research, Quality Management, Ergonomics, Production Planning, Systems Analysis"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Lean Six Sigma Yellow Belt",
+      "issuer": "Ask Lex PH Academy",
+      "date": "May 2024",
+      "credential": "Process Mapping, Root Cause Analysis, DMAIC Framework"
+    },
+    {
+      "name": "Project Management Essentials",
+      "issuer": "Management and Strategy Institute",
+      "date": "February 2023",
+      "credential": "WBS, Milestone Scheduling, Resource Constraints, Risk Management"
+    },
+    {
+      "name": "Working Genius Workshop",
+      "issuer": "Morrison Morrell Talent Development",
+      "date": "November 2025",
+      "credential": "Team Work Types, Productivity Flow, Collaboration Profiles"
+    }
+  ],
+  "toolsAndSkills": {
+    "operationsAndAdmin": [
+      "Manpower Allocation",
+      "SLA/KPI & Milestone Tracking",
+      "Client Correspondence",
+      "SOP & Script Drafting",
+      "Database Management",
+      "Agent Onboarding & Coaching",
+      "Lean Six Sigma Yellow Belt",
+      "Inbox Management",
+      "Calendar Management",
+      "Travel Management",
+      "DRRN Decision Framework"
+    ],
+    "reportingAndProductivity": [
+      "Microsoft Excel (Formulas, Trackers, Dashboards)",
+      "Google Sheets",
+      "Google Workspace",
+      "Microsoft Office",
+      "SharePoint",
+      "Slack",
+      "Notion"
+    ],
+    "crmAndOutreach": [
+      "Zoho CRM",
+      "Zoho Voice",
+      "CloudTalk",
+      "Instantly",
+      "ClickSend",
+      "Lusha",
+      "ContactOut",
+      "Wiza",
+      "Roundcube",
+      "Intercom"
+    ]
+  },
+  "portfolioCases": [
+    {
+      "id": "case-01-cross-border-pacing",
+      "badge": "Operations & Capacity Planning",
+      "title": "Cross-Border B2B Campaign Pacing & Resource Forecasting Engine",
+      "clientOrContext": "G9 Outsourcing Corp. / inCall Systems Pte. Ltd. (Singapore & Philippines)",
+      "summary": "Designed dynamic Excel pacing models balancing distributed agent man-days against aggressive attendee registration quotas for global enterprise IT accounts.",
+      "problem": "International B2B event registration campaigns faced volatile daily turnout. Without predictive man-day pacing, campaigns experienced end-of-cycle resource deficits, missed RSVP quotas, and uneven lead distribution across remote Singapore and onsite Philippine teams.",
+      "objective": "Build a centralized daily forecasting and milestone tracking system to maintain SLA compliance, optimize man-day utilization across low-traction periods, and ensure on-time delivery of 150–500 attendee targets.",
+      "myRole": "Operations Team Leader (sole architect of the daily pacing model, production standup facilitator, and agent allocator).",
+      "approach": [
+        "Constructed a multi-variable Excel production model tracking target attendees, cumulative dials, contact rates, conversion ratios, and remaining man-days.",
+        "Implemented pacing variance formulas that automatically recalculated daily call quotas whenever low-traction days (holidays, regional events) occurred.",
+        "Standardized morning 9:30 AM briefings to review real-time pacing, reallocate call lists in the CRM, and deploy targeted objection handling scripts."
+      ],
+      "deliverables": [
+        "Dynamic Excel Campaign Milestone & Man-Day Pacing Tracker.",
+        "Daily 9:30 AM Production Briefing Deck & Agent Quota Allocation Schedule.",
+        "Cross-Border CRM List Distribution Playbook (Singapore remote + PH onsite)."
+      ],
+      "outcome": "Successfully managed 15 concurrent campaigns. Hit benchmark targets including delivering 106 verified attendees within 56 allocated man-days for high-profile IT enterprise event portfolios.",
+      "evidenceType": "Real Employment Experience (G9 Outsourcing Corp.)"
+    },
+    {
+      "id": "case-02-inbox-operating-system",
+      "badge": "Executive Attention Defense",
+      "title": "Executive Inbox Operating System & DRRN Decision Engine",
+      "clientOrContext": "Athena / Oraz PH Candidate Preparation (Case CP-ALEXANDRA-REYES-INBOX)",
+      "summary": "Engineered an asynchronous Executive Inbox Operating System combining high-context triage, VIP filtering, and DRRN decision logic to protect executive deep work.",
+      "problem": "High-growth executives face cognitive overload from 30+ daily mixed-urgency emails, conflicting calendar demands, and uncoordinated stakeholder requests that encroach on critical strategic blocks.",
+      "objective": "Design an airtight Inbox Operating System (IOS) that categorizes, delegates, and resolves incoming correspondence while delivering a concise (<3 min read) executive morning brief.",
+      "myRole": "Executive Assistant Execution Partner (lead author and triage architect).",
+      "approach": [
+        "Created an Inbox Prioritization Matrix categorizing correspondence by Priority (Critical, High, Medium, Low) and Action (Review, Delegate, Track, Archive).",
+        "Formulated the DRRN Framework (Decision/Recommendation, Reason, Risk/Trade-off, Next Step/Mitigation) for all high-stakes trade-offs.",
+        "Drafted an Executive Morning Brief featuring BLUF, Top 3 Immediate Priorities, Delegated Work, and Watch Items, while protecting 8:30 AM – 12:00 PM deep work blocks."
+      ],
+      "deliverables": [
+        "30-Item Inbox Prioritization Matrix with concrete routing rules.",
+        "Standardized Executive Morning Brief Template (<3 min read).",
+        "Inbox Operating System Architecture (VIP Stakeholder Directory, Archive Rules, Daily Operating Cadence).",
+        "Presentation Script & Learning Reflection debrief."
+      ],
+      "outcome": "Demonstrated complete attention defense: eliminated urgent interruptions during protected deep work, redirected media inquiries per firm policy, and staged legal sign-offs for zero-friction execution.",
+      "evidenceType": "Athena / Oraz PH Candidate Preparation Case Study (CP-ALEXANDRA-REYES-INBOX)"
+    },
+    {
+      "id": "case-03-distributed-team-briefings",
+      "badge": "Team Leadership & SOPs",
+      "title": "Distributed Team Operating Rhythm & Quality Governance Cadence",
+      "clientOrContext": "G9 Outsourcing Corp. (Singapore Remote & Philippine Onsite Teams)",
+      "summary": "Established standardized operational cadences, quality benchmarks, and recording governance across 5 remote Singapore agents and 5–20 Philippine onsite staff.",
+      "problem": "Geographically dispersed telemarketing and outreach agents operated with fragmented communications, resulting in inconsistent script adherence, unrecorded calls, and delayed escalations.",
+      "objective": "Create a unified operational cadence and documentation repository ensuring complete auditability, synchronized daily objectives, and continuous coaching.",
+      "myRole": "Operations Team Leader (operational conductor and quality coach).",
+      "approach": [
+        "Instituted mandatory daily 9:30 AM production briefings to align cross-border agents on daily focus areas, enterprise client nuances, and script adaptations.",
+        "Established SharePoint governance protocols requiring all client call recordings and outreach logs to be indexed and audited within 24 hours.",
+        "Applied Lean Six Sigma Yellow Belt root-cause analysis on call conversion drops, updating call plans and coaching agents on specific objection patterns."
+      ],
+      "deliverables": [
+        "Standardized 9:30 AM Briefing Agenda & Production Checklist.",
+        "SharePoint Audio & Call Record Governance Structure.",
+        "Agent Onboarding & Script Refinement Guide for Enterprise IT Outreach."
+      ],
+      "outcome": "Maintained continuous SLA compliance across 10 registration and 5 lead-gen campaigns with zero data loss or unrecorded interactions, improving agent ramp time and client audit readiness.",
+      "evidenceType": "Real Employment Experience (G9 Outsourcing Corp.)"
+    },
+    {
+      "id": "case-04-international-ops-payroll",
+      "badge": "E-Commerce & Client Operations",
+      "title": "International Client Order Inventory & Payroll Calculation Workflow",
+      "clientOrContext": "Vyblee (Australia) & TMC Travel and Tours (Remote)",
+      "summary": "Managed asynchronous multi-platform customer support, order inventory reconciliation, and payroll calculation workflows across Slack, Notion, Intercom, and Google Sheets.",
+      "problem": "International clients required cross-platform coordination for customer order tracking, fast issue resolution, and accurate contractor payroll calculations across varying time zones without operational lag.",
+      "objective": "Build automated Google Sheets inventory trackers and payroll calculation sheets integrated with asynchronous team collaboration channels.",
+      "myRole": "Operations Specialist & Business Development Associate.",
+      "approach": [
+        "Maintained real-time app/website order inventory sheets for Australian e-commerce platform Vyblee, coordinating directly via Notion, Intercom, and Slack.",
+        "Formulated accurate contractor payroll computation models accounting for billable hours, performance tiers, and deduction rules.",
+        "At TMC Travel, qualified outbound leads, onboarded 6 telemarketing agents to standardized CRM workflows, and drove 3–5 repeat corporate clients."
+      ],
+      "deliverables": [
+        "Google Sheets Order Inventory Reconciliation Model.",
+        "Contractor Payroll Calculation Spreadsheet with verification checks.",
+        "Multi-Platform Communication Protocol (Slack/Notion/Intercom response times)."
+      ],
+      "outcome": "Ensured 100% on-time payroll delivery and zero inventory discrepancies, while establishing reliable client retention workflows.",
+      "evidenceType": "Real Client / Remote Operations Experience (Vyblee & TMC Travel)"
+    }
+  ]
+}

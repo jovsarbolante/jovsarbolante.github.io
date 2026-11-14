@@ -617,21 +617,28 @@
             </div>
           </div>
 
-          <!-- Interactive Inquiry Composer -->
+          <!-- Direct Inbox Form (FormSubmit Powered) -->
           <div class="contact-form-wrap">
-            <form id="inquiry-form" class="contact-form" novalidate>
+            <form id="inquiry-form" class="contact-form" action="https://formsubmit.co/jovas.arbolante@gmail.com" method="POST" novalidate>
+              <!-- FormSubmit Configuration -->
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_subject" id="form-subject" value="New Direct Inquiry from jovsarbolante.github.io">
+              <!-- Honeypot anti-spam -->
+              <input type="text" name="_honey" style="display:none">
+
               <h3 style="font-size: 1.25rem; font-weight: 750; margin-bottom: 1.25rem; color: var(--text-primary);">
-                Compose Direct Message
+                Send Direct Message to My Inbox
               </h3>
 
               <div class="form-group">
                 <label for="sender_name">Your Name *</label>
-                <input type="text" id="sender_name" name="sender_name" required placeholder="e.g., Alexandra Reyes">
+                <input type="text" id="sender_name" name="name" required placeholder="e.g., Alexandra Reyes">
               </div>
 
               <div class="form-group">
                 <label for="sender_email">Your Email Address *</label>
-                <input type="email" id="sender_email" name="sender_email" required placeholder="e.g., alexandra@reyescapital.com">
+                <input type="email" id="sender_email" name="email" required placeholder="e.g., alexandra@reyescapital.com">
               </div>
 
               <div class="form-group">
@@ -648,11 +655,11 @@
               <div class="form-group">
                 <label for="message">Message / Context *</label>
                 <textarea id="message" name="message" rows="4" required placeholder="Describe your needs, role overview, or inquiry..."></textarea>
-                <div class="form-help">Submitting formats your note into your email client directed to jovas.arbolante@gmail.com.</div>
+                <div class="form-help">Delivers directly to Jovilyn's Gmail inbox (<span style="color: var(--brand-primary); font-weight: 600;">jovas.arbolante@gmail.com</span>).</div>
               </div>
 
-              <button type="submit" class="btn btn-primary" style="width: 100%;">
-                Send Inquiry via Email →
+              <button type="submit" id="submit-btn" class="btn btn-primary" style="width: 100%;">
+                <span id="submit-btn-text">Send Message Directly →</span>
               </button>
 
               <div id="form-status-box" class="form-status" role="alert" aria-live="polite"></div>

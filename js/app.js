@@ -321,23 +321,25 @@ function initCampaignPacingCalculator() {
 }
 
 /* ==========================================================================
-   5. Contact Form Validation with Truthful Mailto Triggering
+   5. Direct Contact Form (Live Delivery via FormSubmit AJAX)
    ========================================================================== */
 function initContactForm() {
   const form = document.getElementById('inquiry-form');
   const statusBox = document.getElementById('form-status-box');
+  const submitBtn = document.getElementById('submit-btn');
+  const submitBtnText = document.getElementById('submit-btn-text');
 
   if (!form || !statusBox) return;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    const name = form.elements['sender_name'].value.trim();
-    const email = form.elements['sender_email'].value.trim();
+    const name = form.elements['name'].value.trim();
+    const email = form.elements['email'].value.trim();
     const engagementType = form.elements['engagement_type'].value;
     const message = form.elements['message'].value.trim();
 
-    // Validation
+    // 1. Client-Side Validation
     if (!name || !email || !message) {
       statusBox.className = 'form-status active error';
       statusBox.textContent = 'Please fill out all required fields (Name, Email, and Message).';
@@ -351,22 +353,69 @@ function initContactForm() {
       return;
     }
 
-    // Truthful action: Format mailto link and trigger email client
-    const subject = encodeURIComponent(`[Inquiry: ${engagementType}] From ${name}`);
-    const body = encodeURIComponent(
-      `Name: ${name}\n` +
-      `Email: ${email}\n` +
-      `Engagement Type: ${engagementType}\n\n` +
-      `Message:\n${message}\n\n` +
-      `--- Sent via jovsarbolante.github.io inquiry composer ---`
-    );
+    // 2. Loading State
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      if (submitBtnText) submitBtnText.textContent = 'Sending message to Jovilyn...';
+    }
+    statusBox.className = 'form-status active';
+    statusBox.style.background = 'var(--bg-surface-elevated)';
+    statusBox.style.color = 'var(--text-secondary)';
+    statusBox.style.border = '1px solid var(--border-strong)';
+    statusBox.textContent = 'Transmitting your message securely...';
 
-    const mailtoUrl = `mailto:jovas.arbolante@gmail.com?subject=${subject}&body=${body}`;
+    // 3. Send via FormSubmit AJAX directly to jovas.arbolante@gmail.com
+    const payload = {
+      name: name,
+      email: email,
+      engagement_type: engagementType,
+      message: message,
+      _subject: `[Portfolio Inquiry] ${engagementType} from ${name}`,
+      _template: 'table',
+      _captcha: 'false'
+    };
 
-    statusBox.className = 'form-status active success';
-    statusBox.textContent = 'Opening your email client with your formatted message to jovas.arbolante@gmail.com...';
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/jovas.arbolante@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
 
-    window.location.href = mailtoUrl;
+      const result = await response.json();
+
+      if (response.ok && (result.success === 'true' || result.success === true)) {
+        statusBox.className = 'form-status active success';
+        statusBox.innerHTML = `✅ <strong>Message sent successfully!</strong> Thank you, ${escapeHtml(name)}. Your message has been delivered directly to Jovilyn's inbox (jovas.arbolante@gmail.com).`;
+        form.reset();
+      } else if (result.message && result.message.includes('Activation')) {
+        statusBox.className = 'form-status active success';
+        statusBox.innerHTML = `📩 <strong>Activation pending:</strong> FormSubmit sent an activation email to <strong>jovas.arbolante@gmail.com</strong>. Once activated, future messages arrive instantly!`;
+      } else {
+        throw new Error(result.message || 'Submission failed');
+      }
+    } catch (err) {
+      console.warn('FormSubmit AJAX issue, falling back to mail client:', err);
+      // Fallback: If network blocks third-party fetch, format mailto draft
+      const subject = encodeURIComponent(`[Inquiry: ${engagementType}] From ${name}`);
+      const body = encodeURIComponent(
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Engagement: ${engagementType}\n\n` +
+        `Message:\n${message}\n\n` +
+        `--- Sent via jovsarbolante.github.io ---`
+      );
+      statusBox.className = 'form-status active error';
+      statusBox.innerHTML = `⚠️ Direct network transmission issue. <a href="mailto:jovas.arbolante@gmail.com?subject=${subject}&body=${body}" style="color: var(--brand-primary); font-weight: 700; text-decoration: underline;">Click here to send directly via email client</a>.`;
+    } finally {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        if (submitBtnText) submitBtnText.textContent = 'Send Direct Message →';
+      }
+    }
   });
 }
 

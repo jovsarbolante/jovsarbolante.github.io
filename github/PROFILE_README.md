@@ -5,16 +5,16 @@
 **Remote Operations & Executive Support Coordinator**  
 *BS Industrial Engineering | Certified Lean Six Sigma Yellow Belt | Asynchronous Systems Builder*
 
-[![Portfolio Website](https://img.shields.io/badge/Portfolio%20Website-jovsarbolante.github.io-be185d?style=for-the-badge&logo=safari&logoColor=white)](https://jovsarbolante.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jovilyn%20Arbolante-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/)
-[![Direct Email](https://img.shields.io/badge/Direct%20Email-jovas.arbolante%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jovas.arbolante@gmail.com)
-[![Location](https://img.shields.io/badge/Base-Metro%20Manila%2C%20PH-f472b6?style=for-the-badge&logo=googlemaps&logoColor=white)](https://jovsarbolante.github.io/)
+[![Website](https://img.shields.io/badge/Website-be185d?style=flat&logo=googlechrome&logoColor=white)](https://jovsarbolante.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jovas.arbolante@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jovsarbolante)
 
 <br>
 
-[![BS Industrial Engineering](https://img.shields.io/badge/PUP%20Manila-BS%20Industrial%20Engineering-800000?style=flat-square&logo=googleacademic&logoColor=white)](https://jovsarbolante.github.io/)
-[![Lean Six Sigma Yellow Belt](https://img.shields.io/badge/Certified-Lean%20Six%20Sigma%20Yellow%20Belt-ffd700?style=flat-square&logo=target&logoColor=black)](https://jovsarbolante.github.io/)
-[![Athena / Oraz PH](https://img.shields.io/badge/Candidate%20Pool-Athena%20%2F%20Oraz%20PH-be185d?style=flat-square&logo=star&logoColor=white)](https://jovsarbolante.github.io/)
+[![BS Industrial Engineering](https://img.shields.io/badge/Degree-BS%20Industrial%20Engineering-800000?style=flat&logo=googleacademic&logoColor=white)](https://jovsarbolante.github.io/)
+[![Lean Six Sigma Yellow Belt](https://img.shields.io/badge/Certified-Lean%20Six%20Sigma%20Yellow%20Belt-ffd700?style=flat&logo=target&logoColor=black)](https://jovsarbolante.github.io/)
+[![Athena / Oraz PH](https://img.shields.io/badge/Candidate%20Pool-Athena%20%2F%20Oraz%20PH-be185d?style=flat&logo=star&logoColor=white)](https://jovsarbolante.github.io/)
 
 </div>
 
@@ -36,13 +36,13 @@ With hands-on experience as an Operations Team Leader managing multi-channel B2B
 
 <div align="center">
 
-![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Google Workspace](https://img.shields.io/badge/Google%20Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=for-the-badge&logo=microsoftsharepoint&logoColor=white)
-![Zoho CRM](https://img.shields.io/badge/Zoho%20CRM-E42527?style=for-the-badge&logo=zoho&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
-![Intercom](https://img.shields.io/badge/Intercom-0057FF?style=for-the-badge&logo=intercom&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+![Google Workspace](https://img.shields.io/badge/Google%20Workspace-4285F4?style=flat&logo=google&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=flat&logo=microsoftsharepoint&logoColor=white)
+![Zoho CRM](https://img.shields.io/badge/Zoho%20CRM-E42527?style=flat&logo=zoho&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
+![Intercom](https://img.shields.io/badge/Intercom-0057FF?style=flat&logo=intercom&logoColor=white)
 
 </div>
 
@@ -94,8 +94,9 @@ With hands-on experience as an Operations Team Leader managing multi-channel B2B
 
 <div align="center">
 
-[![Portfolio Website](https://img.shields.io/badge/Visit%20Portfolio-jovsarbolante.github.io-be185d?style=for-the-badge&logo=safari&logoColor=white)](https://jovsarbolante.github.io/)
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/)
-[![Direct Email](https://img.shields.io/badge/Email%20Me-jovas.arbolante%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jovas.arbolante@gmail.com)
+[![Website](https://img.shields.io/badge/Website-be185d?style=flat&logo=googlechrome&logoColor=white)](https://jovsarbolante.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jovilyn-arbolante-aa75aa379/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jovas.arbolante@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/jovsarbolante)
 
 </div>
